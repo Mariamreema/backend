@@ -9,7 +9,7 @@ dotenv.config(); // Load environment variables
 const app = express();
 const PORT = 5000;
 app.get('/',(req,res)=>{
-    res.send('server is running  hi reema')
+    res.send('server is running  hi how are you reema')
 })
 
 // Middleware
@@ -35,3 +35,4 @@ app.use('/api/surveys', surveyRoutes); // Mount survey routes at /api/surveys
 
 // Start Server
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+//----------------------------------------------
